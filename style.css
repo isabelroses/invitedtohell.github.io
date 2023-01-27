@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Victor Mono";
   src: url("https://hellyy.ml/fonts/victormono-regular-webfont.woff") format("woff");
-  }
+}
 
-  @font-face {
-    font-family: "Victor Mono Italic";
-    src: url("https://hellyy.ml/fonts/victormono-italic-webfont.woff") format("woff");
-    }
+@font-face {
+  font-family: "Victor Mono Italic";
+  src: url("https://hellyy.ml/fonts/victormono-italic-webfont.woff") format("woff");
+}
 
 body {
   height: 100%;
@@ -24,17 +24,20 @@ h1 {
   font-family: 'Victor Mono', monospace;
   font-size: clamp(3rem, 10vw, 10rem);
   color: #cdd6f4;
-  
+
 
 }
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cba6f7, 0 0 40px #cba6f7, 0 0 50px #cba6f7, 0 0 60px #cba6f7, 0 0 70px #cba6f7;
   }
+
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #cba6f7, 0 0 40px #cba6f7, 0 0 50px #cba6f7, 0 0 60px #cba6f7, 0 0 70px #cba6f7, 0 0 80px #cba6f7;
   }
 }
+
 h1:hover {
   font-family: 'Victor Mono Italic', monospace;
   font-style: italic;
@@ -46,12 +49,11 @@ h1:hover {
   background: linear-gradient(to right, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-
-  color: #fff;
-  text-align: center;
+  
+  
+  color:  white;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
 h3 {
@@ -135,7 +137,7 @@ a:active {
 footer {
   position: fixed;
   width: 100%;
-  bottom: 0; 
+  bottom: 0;
   user-select: none;
   -drag: none;
   -moz-user-select: none;
@@ -144,18 +146,18 @@ footer {
 }
 
 .center-content {
-align-items: center;
-height: 100vh;
+  align-items: center;
+  height: 100vh;
 
 }
 
 
 .gh:hover {
-color: #cba6f7;
+  color: #cba6f7;
 }
 
 .twt:hover {
-  color:#74c7ec;
+  color: #74c7ec;
 }
 
 .tlg:hover {
@@ -166,3 +168,18 @@ color: #cba6f7;
   color: #94e2d5;
 }
 
+.palette:hover {
+  color: #cbd1e9;
+}
+
+.source:hover {
+  color: #cbd1e9;
+}
+
+.old:hover {
+  color: #cbd1e9;
+}
+
+.head {
+  margin-bottom: 40;
+}}
