@@ -126,7 +126,7 @@ a:active {
 .linktree {
   font-family: 'Victor Mono', monospace;
   color: #cdd6f4;
-  font-size: large;
+  font-size: x-large;
   user-select: none;
   -drag: none;
   -moz-user-select: none;
