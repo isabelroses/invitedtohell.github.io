@@ -118,11 +118,10 @@ height: 100vh;
 }
 
 .text-foot {
-  font-family: '', monospace;
 }
 
 .gh:hover {
-color: #cba6f7;
+color: #74c7ec;
 }
 
 .twt:hover {
@@ -130,9 +129,9 @@ color: #cba6f7;
 }
 
 .tlg:hover {
-  color: #89b4fa;
+  color: #74c7ec;
 }
 
 .mail:hover {
-  color: #94e2d5;
+  color: #74c7ec;
 }
