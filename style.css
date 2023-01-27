@@ -33,12 +33,12 @@ h1:hover {
   font-style: italic;
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
   background-color: #313244;
-  /* background: -webkit-linear-gradient(left, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
+  background: -webkit-linear-gradient(left, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
   background: -o-linear-gradient(right, #fab387, #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
   background: -moz-linear-gradient(right, #fab387, #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
   background: linear-gradient(to right, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
 }
 
 h3 {
