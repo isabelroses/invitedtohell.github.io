@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Victor Mono";
+  src: url("/fonts/victormono-regular-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Victor Mono Italic";
+    src: url("/fonts/victormono-italic-webfont.woff") format("woff");
+    }
+
 body {
   height: 100%;
   width: 100%;
@@ -11,19 +21,28 @@ body {
 }
 
 h1 {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   font-size: clamp(3rem, 10vw, 10rem);
   color: #cdd6f4;
-  border-radius: clamp(0.4rem, 0.75vw, 1rem);
 }
 
 h1:hover {
+  font-family: 'Victor Mono Italic', monospace;
+  font-style: italic;
   background-color: #313244;
   color: #cdd6f4;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  background: #cba6f7;
+  background: -webkit-linear-gradient(left, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
+  background: -o-linear-gradient(right, #fab387, #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
+  background: -moz-linear-gradient(right, #fab387, #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
+  background: linear-gradient(to right, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3 {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   font-size: medium;
   color: #a6adc8;
 }
@@ -61,36 +80,36 @@ h3 {
 
 .meta-link>span {
   color: white;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Victor Mono', monospace;
   font-weight: 500;
 }
 
 a:link {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   text-decoration: none;
   color: #cdd6f4;
 }
 
 a:visited {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   text-decoration: none;
   color: #cdd6f4;
 }
 
 a:hover {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   text-decoration: none;
-  
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
 }
 
 a:active {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   text-decoration: none;
   color: #cdd6f4;
 }
 
 .linktree {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Victor Mono', monospace;
   color: #cdd6f4;
   font-size: large;
   user-select: none;
@@ -133,3 +152,4 @@ color: #cba6f7;
 .mail:hover {
   color: #94e2d5;
 }
+
