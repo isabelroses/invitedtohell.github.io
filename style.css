@@ -214,6 +214,7 @@ footer {
   position: absolute;
   z-index: 1;
   backdrop-filter: blur(12vmax);
+  -webkit-backdrop-filter: blur(12vmax);
 }
 
 @keyframes rotate {
@@ -229,3 +230,4 @@ footer {
     rotate: 360deg;
   }
 }
+
