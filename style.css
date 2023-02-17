@@ -18,12 +18,15 @@ body {
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
+  z-index: 2;
+
 }
 
 h1 {
   font-family: 'Victor Mono', monospace;
   font-size: clamp(3rem, 10vw, 10rem);
   color: #cdd6f4;
+  z-index: 2;
 
 
 }
@@ -132,6 +135,8 @@ a:active {
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
+  z-index: 2;
+
 }
 
 footer {
@@ -143,6 +148,7 @@ footer {
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
+  z-index: 2;
 }
 
 .center-content {
@@ -186,4 +192,40 @@ footer {
 
 .head {
   margin-bottom: 40;
-}}
+}
+
+#blob {
+  background-color: white;
+  height: 34vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(129, 161, 231), rgb(154, 123, 216));
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  backdrop-filter: blur(12vmax);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}

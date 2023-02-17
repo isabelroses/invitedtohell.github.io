@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <div id="blob"></div>
+    <div id="blur"></div>
+
     <div class="center-content d-flex justify-content-md-center">
       <div class="container">
         <div class="head d-flex justify-content-md-center">
@@ -96,6 +100,17 @@
       }, 30);
     }
 
+
+    const blob = document.getElementById("blob");
+
+document.body.onpointermove = event => { 
+  const { clientX, clientY } = event;
+  
+  blob.animate({
+    left: `${clientX}px`,
+    top: `${clientY}px`
+  }, { duration: 3000, fill: "forwards" });
+}
 
 
 </script>
