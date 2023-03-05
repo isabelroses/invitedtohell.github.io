@@ -116,6 +116,7 @@
     }
 
     if (!document.body.classList.contains("is-mobile")) {
+      const blob = document.getElementById("blob")
       window.onpointermove = (event) => {
         const { clientX, clientY } = event
         blob.animate(
@@ -127,7 +128,6 @@
         )
       }
     }
-
   </script>
 </body>
 
