@@ -19,7 +19,6 @@ body {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   z-index: 2;
-
 }
 
 h1 {
@@ -27,8 +26,6 @@ h1 {
   font-size: clamp(3rem, 10vw, 10rem);
   color: #cdd6f4;
   z-index: 2;
-
-
 }
 
 @-webkit-keyframes glow {
@@ -52,9 +49,7 @@ h1:hover {
   background: linear-gradient(to right, #fab387 , #f9e2af, #a6e3a1, #89dceb, #89b4fa, #cba6f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  
-  
-  color:  white;
+  color: white;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
 }
@@ -154,7 +149,6 @@ footer {
 .center-content {
   align-items: center;
   height: 100vh;
-
 }
 
 
@@ -221,10 +215,8 @@ footer {
   from {
     rotate: 0deg;
   }
-  
+
   to {
     rotate: 360deg;
   }
 }
-
-
